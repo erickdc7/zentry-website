@@ -31,7 +31,7 @@ const Hero = () => {
                         <div onClick={handleMiniVdClick} className='origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100'>
                             <video
                                 ref={nextVideoRef}
-                                src={getVideoSrc(currentIndex + 1)}
+                                src={getVideoSrc(upcomingVideoIndex)}
                                 loop
                                 muted
                                 id="current-video"
@@ -40,6 +40,16 @@ const Hero = () => {
                             />
                         </div>
                     </div>
+
+                    <video
+                        ref={nextVideoRef}
+                        src={getVideoSrc(currentIndex)}
+                        loop
+                        muted
+                        id='next-video'
+                        className='absolute-center invisible absolute z-20 size-64 object-cover object-center'
+                        onLoadedData={handleVideoLoad}
+                    />
                 </div>
             </div>
         </div>
