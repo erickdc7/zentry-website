@@ -6,7 +6,9 @@ const Button = ({ title, id, rightIcon, leftIcon, containerClass }) => {
             {leftIcon}
 
             <span className='relative incline-flex overflow-hidden font-general text-xs uppercase'>
+                <div>
 
+                </div>
             </span>
         </button>
     )
