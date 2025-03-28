@@ -16,7 +16,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='h-dvh w-screen'>
+            <div className='h-dvh w-screen' id='clip'>
 
             </div>
         </div>
