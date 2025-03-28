@@ -17,7 +17,9 @@ const About = () => {
             </div>
 
             <div className='h-dvh w-screen' id='clip'>
+                <div className='mask-clip-path about-image'>
 
+                </div>
             </div>
         </div>
     )
