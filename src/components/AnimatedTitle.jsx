@@ -22,6 +22,8 @@ const AnimatedTitle = ({ title, containerClass }) => {
                 stagger: 0.02,
             })
         }, containerRef)
+
+        return () => ctx.revert();
     }, [])
 
     return (
