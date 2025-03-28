@@ -13,7 +13,7 @@ const Hero = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [loadedVideos, setLoadedVideos] = useState(0);
 
-    const totalVideos = 3;
+    const totalVideos = 4;
     const nextVideoRef = useRef(null);
 
     const handleVideoLoad = () => {
