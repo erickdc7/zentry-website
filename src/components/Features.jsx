@@ -1,5 +1,13 @@
 import React from 'react'
 
+const BentoCard = ({ src, title, description, isComingSoon }) => {
+    return (
+        <div>
+            {title}
+        </div>
+    )
+}
+
 const Features = () => {
     return (
         <section className='bg-black pb-52'>
@@ -14,7 +22,12 @@ const Features = () => {
             </div>
 
             <div className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
-
+                <BentoCard
+                    src="videos/feature-1.mp4"
+                    title={<>radi<b>n</b>t</>}
+                    description="The game of games app transforming moments across Web2 & Web3 titles into rewards."
+                    isComingSoon
+                />
             </div>
         </section>
     )
