@@ -13,6 +13,7 @@ const Navbar = () => {
 
     const toggleAudioIndicator = () => {
         setIsAudioPlaying((prev) => !prev)
+        setisIndicatorActive((prev) => !prev)
     }
 
     return (
