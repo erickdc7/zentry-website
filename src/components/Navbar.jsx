@@ -23,7 +23,11 @@ const Navbar = () => {
 
                     <div className='flex h-full items-center'>
                         <div className='hidden md:block'>
-
+                            {navItems.map((item) => (
+                                <a className='nav-hover-btn'>
+                                    {item}
+                                </a>
+                            ))}
                         </div>
                     </div>
                 </nav>
