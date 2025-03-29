@@ -50,15 +50,14 @@ const Navbar = () => {
                         </div>
 
                         <button className='ml-10 flex items-center space-x-0.5' onClick={toggleAudioIndicator}>
-                            <audio src={"/audio/loop.mp3"} ref={audioElementRef} className='hidden' loop>
-                                {[1, 2, 3, 4].map((bar) => (
-                                    <div
-                                        key={bar}
-                                        className={`indicator-line ${isIndicatorActive ? 'active' : ''}`}
-                                        style={{ animationDelay: `${bar * 0.1}s` }}
-                                    />
-                                ))}
-                            </audio>
+                            <audio src={"/audio/loop.mp3"} ref={audioElementRef} className='hidden' loop />
+                            {[1, 2, 3, 4].map((bar) => (
+                                <div
+                                    key={bar}
+                                    className={`indicator-line ${isIndicatorActive ? 'active' : ''}`}
+                                    style={{ animationDelay: `${bar * 0.1}s` }}
+                                />
+                            ))}
                         </button>
                     </div>
                 </nav>
