@@ -12,6 +12,10 @@ const Features = () => {
                     Immerse yourself in a rich and ever-expanding universe where a vibrant array of products converge into an interconected overlay experience on your world.
                 </p>
             </div>
+
+            <div className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
+
+            </div>
         </section>
     )
 }
