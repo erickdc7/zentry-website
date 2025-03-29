@@ -2,7 +2,7 @@ import React from 'react'
 
 const BentoCard = ({ src, title, description, isComingSoon }) => {
     return (
-        <div>
+        <div className='relative size-full'>
             {title}
         </div>
     )
