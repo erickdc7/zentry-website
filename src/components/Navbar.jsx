@@ -29,6 +29,10 @@ const Navbar = () => {
                                 </a>
                             ))}
                         </div>
+
+                        <button className='ml-10 flex items-center space-x-0.5'>
+
+                        </button>
                     </div>
                 </nav>
             </header>
