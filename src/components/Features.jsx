@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BentoCard = ({ src, title, description, isComingSoon }) => {
+const BentoCard = ({ src, title, description }) => {
     return (
         <div className='relative size-full'>
             <video
@@ -14,7 +14,7 @@ const BentoCard = ({ src, title, description, isComingSoon }) => {
                 <div>
                     <h1 className='bento-title special-font'>{title}</h1>
                     {description && (
-                        <p>{description}</p>
+                        <p className='mt-3 max-w-64 text-xs md:text-base'>{description}</p>
                     )}
                 </div>
             </div>
@@ -40,7 +40,6 @@ const Features = () => {
                     src="videos/feature-1.mp4"
                     title={<>radi<b>n</b>t</>}
                     description="The game of games app transforming moments across Web2 & Web3 titles into rewards."
-                    isComingSoon
                 />
             </div>
         </section>
