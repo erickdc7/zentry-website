@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Button from './Button'
 import { TiLocationArrow } from 'react-icons/ti'
 
@@ -15,6 +15,15 @@ const Navbar = () => {
         setIsAudioPlaying((prev) => !prev)
         setisIndicatorActive((prev) => !prev)
     }
+
+    useEffect(() => {
+        if (isAudioPlaying) {
+            audioElementRef.current.play()
+        } else {
+            audioElementRef.current.pause()
+        }
+    }, [isAudioPlaying])
+
 
     return (
         <div ref={navContainerRef} className=' fixed inset-x-0 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6'>
