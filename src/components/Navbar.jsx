@@ -2,6 +2,8 @@ import React, { useRef } from 'react'
 import Button from './Button'
 import { TiLocationArrow } from 'react-icons/ti'
 
+const navItems = ['Nexus', 'Vault', 'Prologue', 'About', 'Contact'];
+
 const Navbar = () => {
     const navContainerRef = useRef(null)
 
