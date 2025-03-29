@@ -19,8 +19,8 @@ const Navbar = () => {
                         />
                     </div>
 
-                    <div>
-                        
+                    <div className='flex h-full items-center'>
+
                     </div>
                 </nav>
             </header>
