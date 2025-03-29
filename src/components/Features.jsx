@@ -41,6 +41,10 @@ const Features = () => {
                         description="The game of games app transforming moments across Web2 & Web3 titles into rewards."
                     />
                 </div>
+
+                <div className='grid h-[135vh] grid-cols-2 grid-rows-3 gap-7'>
+
+                </div>
             </div>
         </section>
     )
