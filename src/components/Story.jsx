@@ -14,7 +14,9 @@ const Story = () => {
                         containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
                     />
 
+                    <div className='story-img-container'>
 
+                    </div>
                 </div>
             </div>
         </section>
