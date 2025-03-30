@@ -15,7 +15,9 @@ const Story = () => {
                     />
 
                     <div className='story-img-container'>
+                        <div className='story-img-mask'>
 
+                        </div>
                     </div>
                 </div>
             </div>
