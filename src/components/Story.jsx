@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import AnimatedTitle from './AnimatedTitle'
 
 const Story = () => {
+    const frameRef = useRef('null')
+
     return (
         <section id='story' className='min-h-dvh w-screen bg-black text-blue-50'>
             <div className='flex size-full flex-col items-center py-10 pb-24'>
@@ -17,7 +19,12 @@ const Story = () => {
                     <div className='story-img-container'>
                         <div className='story-img-mask'>
                             <div className='story-img-content'>
-
+                                <img
+                                    ref={frameRef}
+                                    src="/img/entrance.webp"
+                                    alt="entrance"
+                                    className='object-contain'
+                                />
                             </div>
                         </div>
                     </div>
