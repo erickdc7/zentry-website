@@ -2,7 +2,9 @@ import React from 'react'
 
 const Story = () => {
     return (
-        <div>Story</div>
+        <section id='story' className='min-h-dvh w-screen bg-black text-blue-50'>
+
+        </section>
     )
 }
 
