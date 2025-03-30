@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import AnimatedTitle from './AnimatedTitle'
 import gsap from 'gsap'
 import RoundedCorners from './RoundedCorners'
+import Button from './Button'
 
 const Story = () => {
     const frameRef = useRef('null')
@@ -81,6 +82,12 @@ const Story = () => {
                             Discover its secrets and shape your fate amidst infinite
                             opportunities.
                         </p>
+
+                        <Button
+                            id="realm-button"
+                            title="discover prologue"
+                            containerClass="mt-5"
+                        />
                     </div>
                 </div>
             </div>
