@@ -75,7 +75,9 @@ const Story = () => {
                 </div>
 
                 <div className='-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end'>
+                    <div className='flex h-full w-fit flex-col items-center md:items-start'>
 
+                    </div>
                 </div>
             </div>
         </section>
