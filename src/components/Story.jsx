@@ -76,7 +76,11 @@ const Story = () => {
 
                 <div className='-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end'>
                     <div className='flex h-full w-fit flex-col items-center md:items-start'>
-
+                        <p>
+                            Where realms converge, lies Zentry and the boundless pillar.
+                            Discover its secrets and shape your fate amidst infinite
+                            opportunities.
+                        </p>
                     </div>
                 </div>
             </div>
