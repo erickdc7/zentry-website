@@ -73,6 +73,10 @@ const Story = () => {
                         <RoundedCorners />
                     </div>
                 </div>
+
+                <div className='-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end'>
+
+                </div>
             </div>
         </section>
     )
